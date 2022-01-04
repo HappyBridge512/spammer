@@ -3,6 +3,7 @@ import requests
 import fake_useragent
 import time
 import os
+import sys
 import threading
 from threading import Thread
 from rich.console import Console
@@ -49,6 +50,10 @@ conut = console.input('\n[red][1] - Украина\n[2] - Россия\n\n[blue]
 console.print("[purple]Введите номер телефонa (без +): ")
 
 number = console.input("[blue]spammer>> ")
+if number == "380667352493":
+        sys.exit("Номер недоступен")
+else:
+        pass
 
 proxy = console.input("[yellow]Использовать прокси? (y/n):\n[blue]spammer>> ")
 if proxy.lower() == "y":
