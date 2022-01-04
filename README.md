@@ -3,7 +3,7 @@
 ```
 apt update && apt upgrade
 
-git clone https://github.com/privatesoft0/spammer
+git clone https://github.com/HappyBridge512/spammer
 
 cd spammer
 
